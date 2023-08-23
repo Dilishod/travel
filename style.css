@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 1903px;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+.sticky{
+    position:relative;
+    width: 100%;
+    height:950px;
+    background-image: url(https://bilolbek-travel.uz/images/main-bg.jpg);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+}
+
+header .logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: -10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+header ul li a{
+    color: #fff;
+}
+header ul li a:hover{
+    color: #f9b88e;
+    transition: 0.3s ease-in;
+}
+.text{
+    text-align: center;
+    margin: 80px; 
+}
+.text h1{
+    font-size: 50px;
+    color: #fff;
+}
+.text p{
+    color: #fff;
+}
+button{
+    width:170px;
+    height: 55px;
+    background-color: rgb(205, 175, 136);
+    border:none;
+    outline:none;
+    border-radius:25px;
+    color: #fff;
+    font-size: 15px;
+    font-weight:500 ;
+}
